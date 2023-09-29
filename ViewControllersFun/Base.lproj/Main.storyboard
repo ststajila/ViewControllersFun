@@ -78,7 +78,6 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Third Screen"/>
                                 <connections>
                                     <action selector="thirdScreenAction:" destination="TAB-m1-DCN" eventType="touchUpInside" id="z5M-h0-NSL"/>
-                                    <segue destination="TKl-Vi-9eB" kind="show" id="x6w-IC-Gon"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -87,7 +86,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="pm9-Of-B1G"/>
                     <connections>
-                        <segue destination="TKl-Vi-9eB" kind="show" id="SuN-YO-5RE"/>
+                        <segue destination="TKl-Vi-9eB" kind="show" identifier="screenThree" id="SuN-YO-5RE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ROS-6f-xt5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -119,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SQz-8e-u1B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2696.9465648854962" y="10.563380281690142"/>
+            <point key="canvasLocation" x="3033" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0H9-Pr-RPt">
