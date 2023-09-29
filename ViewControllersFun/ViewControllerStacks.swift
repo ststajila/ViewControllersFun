@@ -23,4 +23,10 @@ class ViewControllerStacks: UIViewController {
         view.backgroundColor = UIColor.yellow
     }
     
+    
+    @IBAction func thirdScreenAction(_ sender: Any) {
+        
+        performSegue(withIdentifier: "screenThree", sender: self)
+        
+    }
 }

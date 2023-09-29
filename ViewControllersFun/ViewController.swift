@@ -13,7 +13,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var textFieldOutlet: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.brown
+        
+    }
+    
+
+    
+    override func viewWillAppear(_ animated: Bool) {
+        view.backgroundColor = UIColor.systemPink
     }
 
     @IBAction func manualAction(_ sender: Any) {
@@ -22,7 +29,6 @@ class ViewController: UIViewController {
          pony = textFieldOutlet.text!
         
         performSegue(withIdentifier: "toRed", sender: self)
-        
         
     }
     

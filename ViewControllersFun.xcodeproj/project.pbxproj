@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141422142AC718080076677C /* ViewControllerThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141422132AC718080076677C /* ViewControllerThirdScreen.swift */; };
 		147C308C2AC5BFEB0079D147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147C308B2AC5BFEB0079D147 /* AppDelegate.swift */; };
 		147C308E2AC5BFEB0079D147 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147C308D2AC5BFEB0079D147 /* SceneDelegate.swift */; };
 		147C30902AC5BFEB0079D147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147C308F2AC5BFEB0079D147 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		141422132AC718080076677C /* ViewControllerThirdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThirdScreen.swift; sourceTree = "<group>"; };
 		147C30882AC5BFEB0079D147 /* ViewControllersFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllersFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147C308B2AC5BFEB0079D147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		147C308D2AC5BFEB0079D147 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				147C308B2AC5BFEB0079D147 /* AppDelegate.swift */,
 				147C308D2AC5BFEB0079D147 /* SceneDelegate.swift */,
+				141422132AC718080076677C /* ViewControllerThirdScreen.swift */,
 				147C30BE2AC5C3550079D147 /* ViewControllerStacks.swift */,
 				147C308F2AC5BFEB0079D147 /* ViewController.swift */,
 				147C30912AC5BFEB0079D147 /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141422142AC718080076677C /* ViewControllerThirdScreen.swift in Sources */,
 				147C30902AC5BFEB0079D147 /* ViewController.swift in Sources */,
 				147C30BF2AC5C3550079D147 /* ViewControllerStacks.swift in Sources */,
 				147C308C2AC5BFEB0079D147 /* AppDelegate.swift in Sources */,
