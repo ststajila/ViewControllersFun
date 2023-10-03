@@ -11,10 +11,14 @@ class ViewControllerStacks: UIViewController {
 
     var name: String!
     
+    //creating a variable to get access to the first view controler
+    var delegate: ViewController!
+    
+    @IBOutlet weak var changeNameOutlet: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print(name)
+        print(name!)
         // Do any additional setup after loading the view.
     }
     
@@ -29,4 +33,11 @@ class ViewControllerStacks: UIViewController {
         performSegue(withIdentifier: "screenThree", sender: self)
         
     }
+    
+    @IBAction func changeButton(_ sender: Any) {
+        var name2 = changeNameOutlet.text!
+        delegate.pony = name2
+    }
+    
+    
 }
