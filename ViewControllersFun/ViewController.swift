@@ -5,9 +5,15 @@
 //  Created by STANISLAV STAJILA on 9/28/23.
 //
 
+protocol ViewControllerDelegate {
+    //protocols like interfaces in java
+    func changeName (s1: String)
+}
+
 import UIKit
 
-class ViewController: UIViewController {
+//adopting the protocol
+class ViewController: UIViewController,  ViewControllerDelegate {
 
     var pony = ""
     @IBOutlet weak var label: UILabel!
@@ -42,10 +48,15 @@ class ViewController: UIViewController {
         
         nvc.name = pony
         
-        
+        //on the second screen only protocol will be passed
         nvc.delegate = self
         
     }
+    
+    func changeName(s1: String) {
+        pony = s1
+    }
+    
     
 }
 

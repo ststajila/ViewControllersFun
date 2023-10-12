@@ -12,7 +12,7 @@ class ViewControllerStacks: UIViewController {
     var name: String!
     
     //creating a variable to get access to the first view controler
-    var delegate: ViewController!
+    var delegate: ViewControllerDelegate!
     
     @IBOutlet weak var changeNameOutlet: UITextField!
     override func viewDidLoad() {
@@ -36,7 +36,7 @@ class ViewControllerStacks: UIViewController {
     
     @IBAction func changeButton(_ sender: Any) {
         var name2 = changeNameOutlet.text!
-        delegate.pony = name2
+        delegate.changeName(s1: name2)
     }
     
     
